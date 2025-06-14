@@ -19,7 +19,7 @@ public class DemoApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/api/**")
-						.allowedOrigins("https://clinquant-palmier-778ec9.netlify.app/")
+						.allowedOrigins("https://clinquant-palmier-778ec9.netlify.app")
 						.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 						.allowedHeaders("*")
 						.allowCredentials(true);
