@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://clinquant-palmier-778ec9.netlify.app")
+@CrossOrigin(origins = "https://magenta-zabaione-9a3e87.netlify.app")
 public class UserController {
 
     @Autowired
